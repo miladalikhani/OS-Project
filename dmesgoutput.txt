@@ -1,0 +1,1348 @@
+[    0.331517] io scheduler noop registered
+[    0.331522] io scheduler deadline registered
+[    0.331574] io scheduler cfq registered (default)
+[    0.331755] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.331776] intel_idle: does not run on family 6 model 69
+[    0.331873] power_supply AC: uevent
+[    0.331876] power_supply AC: POWER_SUPPLY_NAME=AC
+[    0.331900] ACPI: AC Adapter [AC] (off-line)
+[    0.331986] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.331992] ACPI: Power Button [PWRF]
+[    0.332068] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[    0.332072] ACPI: Sleep Button [SLPF]
+[    0.332164] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    0.332240] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+[    0.332705] power_supply BAT0: uevent
+[    0.332742] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[    0.332832] ACPI: Battery Slot [BAT0] (battery present)
+[    0.332943] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.333162] Linux agpgart interface v0.103
+[    0.333503] Unable to detect cache hierarchy from DT for CPU 0
+[    0.341762] power_supply AC: power_supply_changed
+[    0.341771] power_supply AC: power_supply_changed_work
+[    0.341821] power_supply AC: power_supply_update_gen_leds 0
+[    0.341828] power_supply AC: uevent
+[    0.341832] power_supply AC: POWER_SUPPLY_NAME=AC
+[    0.341859] power_supply AC: prop ONLINE=0
+[    0.343759] brd: module loaded
+[    0.343887] power_supply BAT0: power_supply_changed
+[    0.343892] power_supply BAT0: power_supply_changed_work
+[    0.343903] power_supply BAT0: power_supply_update_bat_leds 2
+[    0.343909] power_supply BAT0: uevent
+[    0.343911] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[    0.343916] power_supply BAT0: prop STATUS=Discharging
+[    0.343919] power_supply BAT0: prop PRESENT=1
+[    0.343923] power_supply BAT0: prop TECHNOLOGY=Unknown
+[    0.343926] power_supply BAT0: prop CYCLE_COUNT=0
+[    0.343929] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[    0.343933] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[    0.343937] power_supply BAT0: prop POWER_NOW=7900000
+[    0.343942] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[    0.343946] power_supply BAT0: prop ENERGY_FULL=50000000
+[    0.343950] power_supply BAT0: prop ENERGY_NOW=29000000
+[    0.343954] power_supply BAT0: prop CAPACITY=58
+[    0.343957] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[    0.343960] power_supply BAT0: prop MODEL_NAME=1
+[    0.343963] power_supply BAT0: prop MANUFACTURER=innotek
+[    0.343966] power_supply BAT0: prop SERIAL_NUMBER=0
+[    0.352910] loop: module loaded
+[    0.354183] VMware PVSCSI driver - version 1.0.5.0-k
+[    0.354207] hv_vmbus: registering driver hv_storvsc
+[    0.354294] ata_piix 0000:00:01.1: version 2.13
+[    0.356076] scsi host0: ata_piix
+[    0.357370] scsi host1: ata_piix
+[    0.357448] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+[    0.357452] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+[    0.357676] tun: Universal TUN/TAP device driver, 1.6
+[    0.357680] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.357704] Fusion MPT base driver 3.04.20
+[    0.357780] Copyright (c) 1999-2008 LSI Corporation
+[    0.357790] Fusion MPT SPI Host driver 3.04.20
+[    0.357854] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.357862] ehci-pci: EHCI PCI platform driver
+[    0.357911] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.357921] ohci-pci: OHCI PCI platform driver
+[    0.358488] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[    0.358525] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[    0.358607] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+[    0.410057] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[    0.410066] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.410072] usb usb1: Product: OHCI PCI host controller
+[    0.410077] usb usb1: Manufacturer: Linux 4.4.62-android-x86_64 ohci_hcd
+[    0.410083] usb usb1: SerialNumber: 0000:00:06.0
+[    0.410283] hub 1-0:1.0: USB hub found
+[    0.410319] hub 1-0:1.0: 12 ports detected
+[    0.410940] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.411006] usbcore: registered new interface driver usb-storage
+[    0.411017] usbcore: registered new interface driver ums-alauda
+[    0.411027] usbcore: registered new interface driver ums-cypress
+[    0.411037] usbcore: registered new interface driver ums-datafab
+[    0.411047] usbcore: registered new interface driver ums_eneub6250
+[    0.411058] usbcore: registered new interface driver ums-freecom
+[    0.411067] usbcore: registered new interface driver ums-isd200
+[    0.411077] usbcore: registered new interface driver ums-jumpshot
+[    0.411087] usbcore: registered new interface driver ums-onetouch
+[    0.411112] usbcore: registered new interface driver ums-realtek
+[    0.411122] usbcore: registered new interface driver ums-sddr09
+[    0.411132] usbcore: registered new interface driver ums-sddr55
+[    0.411142] usbcore: registered new interface driver ums-usbat
+[    0.411182] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[    0.411621] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.411626] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.411740] hv_vmbus: registering driver hyperv_keyboard
+[    0.411793] mousedev: PS/2 mouse device common for all mice
+[    0.412048] rtc rtc0: alarm rollover: day
+[    0.412099] rtc rtc0: rtc_cmos: dev (254:0)
+[    0.412104] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+[    0.412154] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[    0.412176] IR Sharp protocol handler initialized
+[    0.412179] IR XMP protocol handler initialized
+[    0.412211] device-mapper: uevent: version 1.0.3
+[    0.412257] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+[    0.412470] sdhci: Secure Digital Host Controller Interface driver
+[    0.412473] sdhci: Copyright(c) Pierre Ossman
+[    0.412518] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.412610] hidraw: raw HID events driver (C) Jiri Kosina
+[    0.412670] usbcore: registered new interface driver usbhid
+[    0.412672] usbhid: USB HID core driver
+[    0.412753] ashmem: initialized
+[    0.416411] oprofile: using timer interrupt.
+[    0.416463] GACT probability NOT on
+[    0.416470] Mirror/redirect action on
+[    0.416477] u32 classifier
+[    0.416479]     Actions configured
+[    0.416486] Netfilter messages via NETLINK v0.30.
+[    0.416506] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+[    0.416649] ctnetlink v0.93: registering with nfnetlink.
+[    0.416883] xt_time: kernel timezone is -0000
+[    0.417028] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    0.417089] arp_tables: (C) 2002 David S. Miller
+[    0.417111] Initializing XFRM netlink socket
+[    0.417334] NET: Registered protocol family 10
+[    0.417631] mip6: Mobile IPv6
+[    0.417638] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    0.417686] sit: IPv6 over IPv4 tunneling driver
+[    0.417976] NET: Registered protocol family 17
+[    0.417983] NET: Registered protocol family 15
+[    0.417989] NET: Registered protocol family 35
+[    0.418204] microcode: CPU0 sig=0x40651, pf=0x40, revision=0x0
+[    0.418228] microcode: CPU1 sig=0x40651, pf=0x40, revision=0x0
+[    0.418257] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[    0.418358] registered taskstats version 1
+[    0.418766]   Magic number: 9:77:388
+[    0.418884] rtc_cmos rtc_cmos: setting system clock to 2017-11-07 16:22:32 UTC (1510071752)
+[    0.509302] ata1.01: NODEV after polling detection
+[    0.509514] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+[    0.509770] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    0.509774] ata1.00: 33554432 sectors, multi 128: LBA 
+[    0.510294] ata2.00: configured for UDMA/33
+[    0.510409] ata1.00: configured for UDMA/33
+[    0.510668] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    0.510884] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    0.511045] sd 0:0:0:0: [sda] 33554432 512-byte logical blocks: (17.2 GB/16.0 GiB)
+[    0.511110] sd 0:0:0:0: [sda] Write Protect is off
+[    0.511113] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    0.511259] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.511477] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+[    0.512047]  sda: sda1
+[    0.512282] sd 0:0:0:0: [sda] Attached SCSI disk
+[    0.522625] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+[    0.522631] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    0.523549] sr 1:0:0:0: Attached scsi CD-ROM sr0
+[    0.523601] sr 1:0:0:0: Attached scsi generic sg1 type 5
+[    0.524943] Freeing unused kernel memory: 1196K (ffffffffaf0e7000 - ffffffffaf212000)
+[    0.524948] Write protecting the kernel read-only data: 12288k
+[    0.525571] Freeing unused kernel memory: 1856K (ffff88002ea30000 - ffff88002ec00000)
+[    0.526868] Freeing unused kernel memory: 608K (ffff88002ef68000 - ffff88002f000000)
+[    0.547036] random: env: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.547693] random: setsid: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.548251] random: cttyhack: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.548690] random: sh: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.550190] random: cat: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.551008] random: mount: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.552578] random: dirname: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.553343] random: basename: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.554002] random: ln: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.554661] random: mount: uninitialized urandom read (4 bytes read, 11 bits of entropy available)
+[    0.570509] VFS: could not find a valid V7 on sda.
+[    0.575090] EXT4-fs (sda1): couldn't mount as ext3 due to feature incompatibilities
+[    0.575824] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+[    0.575827] EXT4-fs (sda1): write access will be enabled during recovery
+[    0.581651] EXT4-fs (sda1): recovery complete
+[    0.582340] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[    0.695978] hrtimer: interrupt took 3153753 ns
+[    0.739302] EXT4-fs (loop1): couldn't mount as ext3 due to feature incompatibilities
+[    0.754958] EXT4-fs (loop1): mounted filesystem with ordered data mode. Opts: (null)
+[    0.770405] EXT4-fs (sda1): re-mounted. Opts: (null)
+[    0.774012] init: init started!
+[    0.774267] init: init second stage started!
+[    0.774327] init: waitpid failed: No child processes
+[    0.774362] init: (Loading properties from /default.prop took 0.00s.)
+[    0.774770] init: (Parsing /init.environ.rc took 0.00s.)
+[    0.774824] init: (Parsing /init.usb.rc took 0.00s.)
+[    0.774900] init: (Parsing /init.bluetooth.rc took 0.00s.)
+[    0.774917] init: (Parsing /init.superuser.rc took 0.00s.)
+[    0.774922] init: (Parsing /init.android_x86_64.rc took 0.00s.)
+[    0.774992] init: (Parsing /init.usb.configfs.rc took 0.00s.)
+[    0.775010] init: (Parsing /init.zygote64_32.rc took 0.00s.)
+[    0.775030] init: (Parsing /init.trace.rc took 0.00s.)
+[    0.775035] init: (Parsing /init.rc took 0.00s.)
+[    0.775091] init: Starting service 'ueventd'...
+[    0.775175] init: write_file: Unable to open '/sys/module/xt_qtaguid/parameters/ctrl_write_limited': No such file or directory
+[    0.775197] init: Waiting for /dev/.coldboot_done...
+[    0.775562] ueventd: ueventd started!
+[    0.826708] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[    0.826713] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    1.161193] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:70:79:06
+[    1.161202] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[    1.187548] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+[    1.324785] tsc: Refined TSC clocksource calibration: 2494.230 MHz
+[    1.324793] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x23f3ef00b85, max_idle_ns: 440795229986 ns
+[    1.502780] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 50541 usecs (12575 samples)
+[    1.502786] snd_intel8x0 0000:00:05.0: measured clock 248807 rejected
+[    1.855781] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 50720 usecs (12654 samples)
+[    1.855788] snd_intel8x0 0000:00:05.0: measured clock 249487 rejected
+[    2.207729] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 50846 usecs (12654 samples)
+[    2.207735] snd_intel8x0 0000:00:05.0: measured clock 248869 rejected
+[    2.207739] snd_intel8x0 0000:00:05.0: clocking to 48000
+[    2.223126] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+[    2.230120] AVX version of gcm_enc/dec engaged.
+[    2.230124] AES CTR mode by8 optimization enabled
+[    2.251729] ueventd: failed to load intel_powerclamp for modalias cpu:type:x86,ven0000fam0006mod0045:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,001C,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0089,008D,0093,0094,0096,0097,0099,009A,009B,009C,009E,009F,00C0,00C5,012D
+[    2.251729] 
+[    2.255441] intel_rapl: no valid rapl domains found in package 0
+[    2.264770] ueventd: failed to load intel_rapl for modalias cpu:type:x86,ven0000fam0006mod0045:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,001C,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0089,008D,0093,0094,0096,0097,0099,009A,009B,009C,009E,009F,00C0,00C5,012D
+[    2.264770] 
+[    2.290361] ueventd: failed to load intel_powerclamp for modalias cpu:type:x86,ven0000fam0006mod0045:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,001C,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0089,008D,0093,0094,0096,0097,0099,009A,009B,009C,009E,009F,00C0,00C5,012D
+[    2.290361] 
+[    2.292196] intel_rapl: no valid rapl domains found in package 0
+[    2.302765] ueventd: failed to load intel_rapl for modalias cpu:type:x86,ven0000fam0006mod0045:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,001C,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0089,008D,0093,0094,0096,0097,0099,009A,009B,009C,009E,009F,00C0,00C5,012D
+[    2.302765] 
+[    2.324698] clocksource: Switched to clocksource tsc
+[    2.328569] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[    2.334634] ueventd: blacklisted module evbug: 1
+[    2.339537] ueventd: blacklisted module evbug: 1
+[    2.352627] input: PC Speaker as /devices/platform/pcspkr/input/input6
+[    2.354677] ueventd: blacklisted module evbug: 1
+[    2.356991] ueventd: blacklisted module evbug: 1
+[    2.383589] ueventd: failed to load pcc_cpufreq for modalias acpi:LNXCPU:
+[    2.406232] ueventd: failed to load pcc_cpufreq for modalias acpi:LNXCPU:
+[    2.445605] ueventd: blacklisted module evbug: 1
+[    2.451065] power_supply BAT0: uevent
+[    2.451070] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[    2.451170] power_supply BAT0: prop STATUS=Discharging
+[    2.451174] power_supply BAT0: prop PRESENT=1
+[    2.451177] power_supply BAT0: prop TECHNOLOGY=Unknown
+[    2.451180] power_supply BAT0: prop CYCLE_COUNT=0
+[    2.451183] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[    2.451186] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[    2.451189] power_supply BAT0: prop POWER_NOW=7900000
+[    2.451192] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[    2.451195] power_supply BAT0: prop ENERGY_FULL=50000000
+[    2.451198] power_supply BAT0: prop ENERGY_NOW=29000000
+[    2.451201] power_supply BAT0: prop CAPACITY=58
+[    2.451204] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[    2.451207] power_supply BAT0: prop MODEL_NAME=1
+[    2.451210] power_supply BAT0: prop MANUFACTURER=innotek
+[    2.451213] power_supply BAT0: prop SERIAL_NUMBER=0
+[    2.452725] power_supply AC: uevent
+[    2.452728] power_supply AC: POWER_SUPPLY_NAME=AC
+[    2.452763] power_supply AC: prop ONLINE=0
+[    2.463558] ueventd: blacklisted module evbug: 1
+[    2.467985] ueventd: blacklisted module evbug: 1
+[    2.468793] ueventd: Coldboot took 1.69s.
+[    2.477777] init: Waiting for /dev/.coldboot_done took 1.70s.
+[    2.477804] init: /dev/hw_random not found
+[    2.481418] init: write_file: Unable to open '/sys/class/misc/alarm/rtc_local_time': No such file or directory
+[    2.481870] init: write_file: Unable to open '/proc/sys/kernel/hung_task_timeout_secs': No such file or directory
+[    2.481879] init: write_file: Unable to open '/proc/cpu/alignment': No such file or directory
+[    2.481900] init: write_file: Unable to open '/proc/sys/kernel/sched_compat_yield': No such file or directory
+[    2.482048] init: write_file: Unable to write to '/dev/cpuctl/cpu.shares': Invalid argument
+[    2.482512] modprobe: /sbin/modprobe fs-cpuset
+[    2.488557] modprobe: Couldn't probe module 'fs-cpuset'
+[    2.490538] init: write_file: Unable to open '/proc/sys/abi/swp': No such file or directory
+[    2.490631] init: /dev/hw_random not found
+[    2.490845] fs_mgr: __mount(source=none,target=/cache,type=tmpfs)=0
+[    2.490951] init: Starting service 'logd'...
+[    2.491204] init: Starting service 'exec 0 (/system/bin/logwrapper)'...
+[    2.549295] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+[    2.553255] ueventd: blacklisted module evbug: 1
+[    2.566626] logd.auditd: start
+[    2.566636] logd.klogd: 2441082693
+[    2.577038] random: nonblocking pool is initialized
+[    2.681743] Bluetooth: Core ver 2.21
+[    2.681790] NET: Registered protocol family 31
+[    2.681793] Bluetooth: HCI device and connection manager initialized
+[    2.681799] Bluetooth: HCI socket layer initialized
+[    2.681803] Bluetooth: L2CAP socket layer initialized
+[    2.681811] Bluetooth: SCO socket layer initialized
+[    2.687087] usbcore: registered new interface driver btusb
+[    2.712413] uvesafb: Oracle Corporation, Oracle VM VirtualBox VBE Adapter, Oracle VM VirtualBox Version 5.0.40, OEM: VirtualBox VESA BIOS, VBE v2.0
+[    2.758742] uvesafb: no monitor limits have been set, default refresh rate will be used
+[    2.758803] uvesafb: scrolling: redraw
+[    2.774569] Console: switching to colour frame buffer device 128x48
+[    2.777544] uvesafb: framebuffer at 0xe0000000, mapped to 0xffffc90001000000, using 15000k, total 25600k
+[    2.777631] fb0: VESA VGA frame buffer device
+[    2.831828] init: Service 'exec 0 (/system/bin/logwrapper)' (pid 998) exited with status 0
+[    2.832267] init: property_set("ro.product.model", "Generic Android-x86_64") failed
+[    2.832362] init: property_set("ro.product.manufacturer", "unknown") failed
+[    2.832632] init: (Loading properties from /system/build.prop took 0.00s.)
+[    2.832658] init: Unable to read property file '/vendor/build.prop'
+[    2.832669] init: Unable to read property file '/factory/factory.prop'
+[    2.832747] init: /recovery not specified in fstab
+[    2.832940] init: Starting service 'vold'...
+[    2.833390] init: Not bootcharting.
+[    2.836533] init: Failed to reload policy
+[    2.836662] init: Starting service 'exec 1 (/system/bin/tzdatacheck)'...
+[    2.850136] init: Service 'exec 1 (/system/bin/tzdatacheck)' (pid 1039) exited with status 0
+[    2.850315] init: Unable to read property file '/data/local.prop'
+[    2.850361] init: Starting service 'logd-reinit'...
+[    2.850647] init: write_file: Unable to open '/proc/sys/vm/min_free_order_shift': No such file or directory
+[    2.851072] init: Starting service 'healthd'...
+[    2.851177] init: Starting service 'lmkd'...
+[    2.851295] init: Starting service 'servicemanager'...
+[    2.851407] init: Starting service 'surfaceflinger'...
+[    2.852604] binder: 1041:1041 transaction failed 29189, size 0-0
+[    2.857381] logd.daemon: reinit
+[    2.922444] init: Service 'logd-reinit' (pid 1040) exited with status 0
+[    2.924184] init: Starting service 'console'...
+[    2.924375] init: Starting service 'netd'...
+[    2.924478] init: Starting service 'debuggerd'...
+[    2.924632] init: Starting service 'debuggerd64'...
+[    2.924727] init: Starting service 'ril-daemon'...
+[    2.924830] init: Starting service 'drm'...
+[    2.924938] init: Starting service 'media'...
+[    2.925037] init: Starting service 'installd'...
+[    2.925128] init: cannot find '/system/bin/install-recovery.sh', disabling 'flash_recovery'
+[    2.925140] init: Starting service 'keystore'...
+[    2.925236] init: Starting service 'zygote'...
+[    2.925321] init: Starting service 'zygote_secondary'...
+[    2.925419] init: Starting service 'gatekeeperd'...
+[    2.925512] init: Starting service 'perfprofd'...
+[    2.925647] init: Starting service 'powerbtnd'...
+[    2.925753] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.925765] init: write_file: Unable to open '/sys/class/android_usb/android0/idVendor': No such file or directory
+[    2.925775] init: write_file: Unable to open '/sys/class/android_usb/android0/idProduct': No such file or directory
+[    2.925785] init: write_file: Unable to open '/sys/class/android_usb/android0/functions': No such file or directory
+[    2.925795] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.925808] init: Starting service 'adbd'...
+[    3.004696] input: Android Power Button as /devices/virtual/input/input7
+[    3.006522] ueventd: blacklisted module evbug: 1
+[    3.852850] healthd: BatteryHealthPath not found
+[    3.852858] healthd: BatteryTemperaturePath not found
+[    3.964774] init: Starting service 'bootanim'...
+[    5.587331] x_tables: ip_tables: owner match: used from hooks INPUT, but only valid from OUTPUT/POSTROUTING
+[    5.606520] x_tables: ip6_tables: owner match: used from hooks INPUT, but only valid from OUTPUT/POSTROUTING
+[    5.645748] modprobe: /sbin/modprobe netdev-dummy0
+[    5.658603] modprobe: Couldn't probe module 'netdev-dummy0'
+[    5.659151] modprobe: /sbin/modprobe dummy0
+[    5.684271] modprobe: Couldn't probe module 'dummy0'
+[    5.689734] capability: warning: `main' uses 32-bit capabilities (legacy support in use)
+[   10.697547] power_supply BAT0: power_supply_changed
+[   10.697555] power_supply BAT0: power_supply_changed_work
+[   10.697560] power_supply BAT0: power_supply_update_bat_leds 2
+[   10.697568] power_supply BAT0: uevent
+[   10.697571] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[   10.697576] power_supply BAT0: prop STATUS=Discharging
+[   10.697580] power_supply BAT0: prop PRESENT=1
+[   10.697584] power_supply BAT0: prop TECHNOLOGY=Unknown
+[   10.697587] power_supply BAT0: prop CYCLE_COUNT=0
+[   10.697590] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[   10.697593] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[   10.697596] power_supply BAT0: prop POWER_NOW=11950000
+[   10.697599] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[   10.697602] power_supply BAT0: prop ENERGY_FULL=50000000
+[   10.697605] power_supply BAT0: prop ENERGY_NOW=28500000
+[   10.697608] power_supply BAT0: prop CAPACITY=57
+[   10.697612] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[   10.697615] power_supply BAT0: prop MODEL_NAME=1
+[   10.697618] power_supply BAT0: prop MANUFACTURER=innotek
+[   10.697621] power_supply BAT0: prop SERIAL_NUMBER=0
+[   10.697701] power_supply AC: uevent
+[   10.697704] power_supply AC: POWER_SUPPLY_NAME=AC
+[   10.697722] power_supply AC: prop ONLINE=0
+[   10.703056] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:22:42.784840004 UTC
+[   10.703194] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:22:42.785006630 UTC
+[   11.623119] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:22:43.704989693 UTC
+[   11.816136] lowmemorykiller: lowmem_shrink: convert oom_adj to oom_score_adj:
+[   11.816153] lowmemorykiller: oom_adj 0 => oom_score_adj 0
+[   11.816157] lowmemorykiller: oom_adj 1 => oom_score_adj 58
+[   11.816159] lowmemorykiller: oom_adj 2 => oom_score_adj 117
+[   11.816161] lowmemorykiller: oom_adj 3 => oom_score_adj 176
+[   11.816163] lowmemorykiller: oom_adj 9 => oom_score_adj 529
+[   11.816167] lowmemorykiller: oom_adj 15 => oom_score_adj 1000
+[   30.697538] power_supply BAT0: power_supply_changed
+[   30.697545] power_supply BAT0: power_supply_changed_work
+[   30.697550] power_supply BAT0: power_supply_update_bat_leds 2
+[   30.697557] power_supply BAT0: uevent
+[   30.697559] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[   30.697564] power_supply BAT0: prop STATUS=Discharging
+[   30.697568] power_supply BAT0: prop PRESENT=1
+[   30.697572] power_supply BAT0: prop TECHNOLOGY=Unknown
+[   30.697575] power_supply BAT0: prop CYCLE_COUNT=0
+[   30.697578] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[   30.697581] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[   30.697584] power_supply BAT0: prop POWER_NOW=15350000
+[   30.697587] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[   30.697590] power_supply BAT0: prop ENERGY_FULL=50000000
+[   30.697593] power_supply BAT0: prop ENERGY_NOW=28500000
+[   30.697596] power_supply BAT0: prop CAPACITY=57
+[   30.697599] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[   30.697602] power_supply BAT0: prop MODEL_NAME=1
+[   30.697605] power_supply BAT0: prop MANUFACTURER=innotek
+[   30.697608] power_supply BAT0: prop SERIAL_NUMBER=0
+[   30.697731] power_supply AC: uevent
+[   30.697735] power_supply AC: POWER_SUPPLY_NAME=AC
+[   30.697755] power_supply AC: prop ONLINE=0
+[   30.697849] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:02.781011704 UTC
+[   30.697978] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:02.781146365 UTC
+[   34.447946] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   34.448467] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[   34.448757] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   34.452181] init: Starting service 'dhcpcd_eth0'...
+[   34.689252] init: Starting service 'exec 2 (/system/bin/logwrapper)'...
+[   34.720984] init: Service 'exec 2 (/system/bin/logwrapper)' (pid 1495) exited with status 0
+[   46.589292] init: Service 'bootanim' (pid 1159) exited with status 0
+[   46.736026] init: Starting service 'exec 3 (/system/bin/logwrapper)'...
+[   47.275385] init: Service 'exec 3 (/system/bin/logwrapper)' (pid 2590) exited with status 0
+[   47.275419] init: Starting service 'su_daemon'...
+[   47.287237] init: Starting service 'bluetoothd'...
+[   47.287411] init: Starting service 'exec 4 (/system/bin/logwrapper)'...
+[   47.771639] init: Service 'exec 4 (/system/bin/logwrapper)' (pid 2679) exited with status 0
+[   50.601569] binder: release 1743:1743 transaction 67418 out, still active
+[   50.601578] binder: release 1743:3013 transaction 67419 out, still active
+[   50.612836] binder: 1349:1576 transaction failed 29189, size 4-0
+[   50.612841] binder: send failed reply for transaction 67418, target dead
+[   50.613046] binder: 1349:1573 transaction failed 29189, size 4-0
+[   50.613049] binder: send failed reply for transaction 67419, target dead
+[   50.698661] power_supply BAT0: power_supply_changed
+[   50.698669] power_supply BAT0: power_supply_changed_work
+[   50.698675] power_supply BAT0: power_supply_update_bat_leds 2
+[   50.698682] power_supply BAT0: uevent
+[   50.698686] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[   50.698691] power_supply BAT0: prop STATUS=Discharging
+[   50.698694] power_supply BAT0: prop PRESENT=1
+[   50.698698] power_supply BAT0: prop TECHNOLOGY=Unknown
+[   50.698701] power_supply BAT0: prop CYCLE_COUNT=0
+[   50.698706] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[   50.698717] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[   50.698720] power_supply BAT0: prop POWER_NOW=15550000
+[   50.698724] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[   50.698727] power_supply BAT0: prop ENERGY_FULL=50000000
+[   50.698730] power_supply BAT0: prop ENERGY_NOW=28500000
+[   50.698733] power_supply BAT0: prop CAPACITY=57
+[   50.698736] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[   50.698739] power_supply BAT0: prop MODEL_NAME=1
+[   50.698742] power_supply BAT0: prop MANUFACTURER=innotek
+[   50.698746] power_supply BAT0: prop SERIAL_NUMBER=0
+[   50.698831] power_supply AC: uevent
+[   50.698834] power_supply AC: POWER_SUPPLY_NAME=AC
+[   50.698854] power_supply AC: prop ONLINE=0
+[   50.699221] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:24.261213435 UTC
+[   50.699352] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:24.261353775 UTC
+[   53.127661] init: Service 'bluetoothd' (pid 2678) exited with status 0
+[   53.127720] init: Starting service 'exec 5 (/system/bin/logwrapper)'...
+[   53.198217] init: Service 'exec 5 (/system/bin/logwrapper)' (pid 3120) exited with status 0
+[   70.700096] power_supply BAT0: power_supply_changed
+[   70.700106] power_supply BAT0: power_supply_changed_work
+[   70.700113] power_supply BAT0: power_supply_update_bat_leds 2
+[   70.700123] power_supply BAT0: uevent
+[   70.700126] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[   70.700133] power_supply BAT0: prop STATUS=Discharging
+[   70.700138] power_supply BAT0: prop PRESENT=1
+[   70.700143] power_supply BAT0: prop TECHNOLOGY=Unknown
+[   70.700147] power_supply BAT0: prop CYCLE_COUNT=0
+[   70.700151] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[   70.700155] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[   70.700159] power_supply BAT0: prop POWER_NOW=10700000
+[   70.700164] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[   70.700175] power_supply BAT0: prop ENERGY_FULL=50000000
+[   70.700179] power_supply BAT0: prop ENERGY_NOW=28500000
+[   70.700183] power_supply BAT0: prop CAPACITY=57
+[   70.700188] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[   70.700192] power_supply BAT0: prop MODEL_NAME=1
+[   70.700196] power_supply BAT0: prop MANUFACTURER=innotek
+[   70.700200] power_supply BAT0: prop SERIAL_NUMBER=0
+[   70.700341] power_supply AC: uevent
+[   70.700347] power_supply AC: POWER_SUPPLY_NAME=AC
+[   70.700391] power_supply AC: prop ONLINE=0
+[   70.700775] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:44.264041399 UTC
+[   70.701092] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:23:44.264436761 UTC
+[   90.700571] power_supply BAT0: power_supply_changed
+[   90.700580] power_supply BAT0: power_supply_changed_work
+[   90.700649] power_supply BAT0: power_supply_update_bat_leds 2
+[   90.700661] power_supply BAT0: uevent
+[   90.700666] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[   90.700674] power_supply BAT0: prop STATUS=Discharging
+[   90.700681] power_supply BAT0: prop PRESENT=1
+[   90.700687] power_supply BAT0: prop TECHNOLOGY=Unknown
+[   90.700693] power_supply BAT0: prop CYCLE_COUNT=0
+[   90.700699] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[   90.700704] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[   90.700708] power_supply BAT0: prop POWER_NOW=8900000
+[   90.700712] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[   90.700716] power_supply BAT0: prop ENERGY_FULL=50000000
+[   90.700720] power_supply BAT0: prop ENERGY_NOW=28500000
+[   90.700724] power_supply BAT0: prop CAPACITY=57
+[   90.700728] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[   90.700733] power_supply BAT0: prop MODEL_NAME=1
+[   90.700737] power_supply BAT0: prop MANUFACTURER=innotek
+[   90.700741] power_supply BAT0: prop SERIAL_NUMBER=0
+[   90.700855] power_supply AC: uevent
+[   90.700861] power_supply AC: POWER_SUPPLY_NAME=AC
+[   90.700906] power_supply AC: prop ONLINE=0
+[   90.701121] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:04.265819912 UTC
+[   90.701356] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:04.266047414 UTC
+[  110.702672] power_supply BAT0: power_supply_changed
+[  110.702679] power_supply BAT0: power_supply_changed_work
+[  110.702684] power_supply BAT0: power_supply_update_bat_leds 2
+[  110.702692] power_supply BAT0: uevent
+[  110.702695] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  110.702704] power_supply BAT0: prop STATUS=Discharging
+[  110.702708] power_supply BAT0: prop PRESENT=1
+[  110.702711] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  110.702714] power_supply BAT0: prop CYCLE_COUNT=0
+[  110.702717] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  110.702720] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  110.702723] power_supply BAT0: prop POWER_NOW=12500000
+[  110.702726] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  110.702729] power_supply BAT0: prop ENERGY_FULL=50000000
+[  110.702732] power_supply BAT0: prop ENERGY_NOW=28500000
+[  110.702735] power_supply BAT0: prop CAPACITY=57
+[  110.702738] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  110.702741] power_supply BAT0: prop MODEL_NAME=1
+[  110.702744] power_supply BAT0: prop MANUFACTURER=innotek
+[  110.702747] power_supply BAT0: prop SERIAL_NUMBER=0
+[  110.702832] power_supply AC: uevent
+[  110.702835] power_supply AC: POWER_SUPPLY_NAME=AC
+[  110.702854] power_supply AC: prop ONLINE=0
+[  110.703885] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:24.269935590 UTC
+[  110.704143] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:24.270205579 UTC
+[  130.704156] power_supply BAT0: power_supply_changed
+[  130.704172] power_supply BAT0: power_supply_changed_work
+[  130.704184] power_supply BAT0: power_supply_update_bat_leds 2
+[  130.704202] power_supply BAT0: uevent
+[  130.704205] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  130.704224] power_supply BAT0: prop STATUS=Discharging
+[  130.704232] power_supply BAT0: prop PRESENT=1
+[  130.704240] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  130.704248] power_supply BAT0: prop CYCLE_COUNT=0
+[  130.704257] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  130.704264] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  130.704272] power_supply BAT0: prop POWER_NOW=11800000
+[  130.704277] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  130.704284] power_supply BAT0: prop ENERGY_FULL=50000000
+[  130.704292] power_supply BAT0: prop ENERGY_NOW=28500000
+[  130.704301] power_supply BAT0: prop CAPACITY=57
+[  130.704311] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  130.704320] power_supply BAT0: prop MODEL_NAME=1
+[  130.704327] power_supply BAT0: prop MANUFACTURER=innotek
+[  130.704333] power_supply BAT0: prop SERIAL_NUMBER=0
+[  130.704433] power_supply AC: uevent
+[  130.704436] power_supply AC: POWER_SUPPLY_NAME=AC
+[  130.704455] power_supply AC: prop ONLINE=0
+[  130.704634] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:44.272052316 UTC
+[  130.704734] healthd: battery l=57 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:24:44.272158779 UTC
+[  150.705009] power_supply BAT0: power_supply_changed
+[  150.705018] power_supply BAT0: power_supply_changed_work
+[  150.705024] power_supply BAT0: power_supply_update_bat_leds 2
+[  150.705033] power_supply BAT0: uevent
+[  150.705037] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  150.705043] power_supply BAT0: prop STATUS=Discharging
+[  150.705047] power_supply BAT0: prop PRESENT=1
+[  150.705052] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  150.705056] power_supply BAT0: prop CYCLE_COUNT=0
+[  150.705060] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  150.705064] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  150.705068] power_supply BAT0: prop POWER_NOW=9950000
+[  150.705072] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  150.705076] power_supply BAT0: prop ENERGY_FULL=50000000
+[  150.705080] power_supply BAT0: prop ENERGY_NOW=28000000
+[  150.705084] power_supply BAT0: prop CAPACITY=56
+[  150.705088] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  150.705093] power_supply BAT0: prop MODEL_NAME=1
+[  150.705097] power_supply BAT0: prop MANUFACTURER=innotek
+[  150.705101] power_supply BAT0: prop SERIAL_NUMBER=0
+[  150.705193] power_supply AC: uevent
+[  150.705198] power_supply AC: POWER_SUPPLY_NAME=AC
+[  150.705223] power_supply AC: prop ONLINE=0
+[  150.705420] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:04.274188265 UTC
+[  150.705621] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:04.274396348 UTC
+[  170.705454] power_supply BAT0: power_supply_changed
+[  170.705463] power_supply BAT0: power_supply_changed_work
+[  170.705469] power_supply BAT0: power_supply_update_bat_leds 2
+[  170.705478] power_supply BAT0: uevent
+[  170.705482] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  170.705488] power_supply BAT0: prop STATUS=Discharging
+[  170.705492] power_supply BAT0: prop PRESENT=1
+[  170.705497] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  170.705501] power_supply BAT0: prop CYCLE_COUNT=0
+[  170.705505] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  170.705509] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  170.705513] power_supply BAT0: prop POWER_NOW=14850000
+[  170.705517] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  170.705521] power_supply BAT0: prop ENERGY_FULL=50000000
+[  170.705525] power_supply BAT0: prop ENERGY_NOW=28000000
+[  170.705529] power_supply BAT0: prop CAPACITY=56
+[  170.705533] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  170.705537] power_supply BAT0: prop MODEL_NAME=1
+[  170.705541] power_supply BAT0: prop MANUFACTURER=innotek
+[  170.705545] power_supply BAT0: prop SERIAL_NUMBER=0
+[  170.705637] power_supply AC: uevent
+[  170.705642] power_supply AC: POWER_SUPPLY_NAME=AC
+[  170.705668] power_supply AC: prop ONLINE=0
+[  170.705893] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:24.276018195 UTC
+[  170.706065] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:24.276193876 UTC
+[  190.706518] power_supply BAT0: power_supply_changed
+[  190.706527] power_supply BAT0: power_supply_changed_work
+[  190.706533] power_supply BAT0: power_supply_update_bat_leds 2
+[  190.706542] power_supply BAT0: uevent
+[  190.706545] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  190.706552] power_supply BAT0: prop STATUS=Discharging
+[  190.706557] power_supply BAT0: prop PRESENT=1
+[  190.706561] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  190.706565] power_supply BAT0: prop CYCLE_COUNT=0
+[  190.706569] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  190.706573] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  190.706578] power_supply BAT0: prop POWER_NOW=8300000
+[  190.706582] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  190.706586] power_supply BAT0: prop ENERGY_FULL=50000000
+[  190.706590] power_supply BAT0: prop ENERGY_NOW=28000000
+[  190.706594] power_supply BAT0: prop CAPACITY=56
+[  190.706598] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  190.706602] power_supply BAT0: prop MODEL_NAME=1
+[  190.706606] power_supply BAT0: prop MANUFACTURER=innotek
+[  190.706610] power_supply BAT0: prop SERIAL_NUMBER=0
+[  190.706698] power_supply AC: uevent
+[  190.706702] power_supply AC: POWER_SUPPLY_NAME=AC
+[  190.706729] power_supply AC: prop ONLINE=0
+[  190.707016] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:44.278497603 UTC
+[  190.707174] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:25:44.278661798 UTC
+[  210.707112] power_supply BAT0: power_supply_changed
+[  210.707121] power_supply BAT0: power_supply_changed_work
+[  210.707127] power_supply BAT0: power_supply_update_bat_leds 2
+[  210.707136] power_supply BAT0: uevent
+[  210.707139] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  210.707149] power_supply BAT0: prop STATUS=Discharging
+[  210.707154] power_supply BAT0: prop PRESENT=1
+[  210.707158] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  210.707162] power_supply BAT0: prop CYCLE_COUNT=0
+[  210.707167] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  210.707171] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  210.707175] power_supply BAT0: prop POWER_NOW=6800000
+[  210.707179] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  210.707183] power_supply BAT0: prop ENERGY_FULL=50000000
+[  210.707187] power_supply BAT0: prop ENERGY_NOW=28000000
+[  210.707191] power_supply BAT0: prop CAPACITY=56
+[  210.707195] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  210.707199] power_supply BAT0: prop MODEL_NAME=1
+[  210.707203] power_supply BAT0: prop MANUFACTURER=innotek
+[  210.707207] power_supply BAT0: prop SERIAL_NUMBER=0
+[  210.707303] power_supply AC: uevent
+[  210.707307] power_supply AC: POWER_SUPPLY_NAME=AC
+[  210.707332] power_supply AC: prop ONLINE=0
+[  210.707581] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:04.280417183 UTC
+[  210.707722] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:04.280564973 UTC
+[  230.708010] power_supply BAT0: power_supply_changed
+[  230.708020] power_supply BAT0: power_supply_changed_work
+[  230.708026] power_supply BAT0: power_supply_update_bat_leds 2
+[  230.708035] power_supply BAT0: uevent
+[  230.708039] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  230.708045] power_supply BAT0: prop STATUS=Discharging
+[  230.708050] power_supply BAT0: prop PRESENT=1
+[  230.708054] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  230.708058] power_supply BAT0: prop CYCLE_COUNT=0
+[  230.708062] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  230.708066] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  230.708070] power_supply BAT0: prop POWER_NOW=8750000
+[  230.708074] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  230.708078] power_supply BAT0: prop ENERGY_FULL=50000000
+[  230.708082] power_supply BAT0: prop ENERGY_NOW=28000000
+[  230.708086] power_supply BAT0: prop CAPACITY=56
+[  230.708090] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  230.708092] power_supply BAT0: prop MODEL_NAME=1
+[  230.708245] power_supply BAT0: prop MANUFACTURER=innotek
+[  230.708251] power_supply BAT0: prop SERIAL_NUMBER=0
+[  230.708375] power_supply AC: uevent
+[  230.708381] power_supply AC: POWER_SUPPLY_NAME=AC
+[  230.708423] power_supply AC: prop ONLINE=0
+[  230.708550] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:24.282734453 UTC
+[  230.708749] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:24.282942691 UTC
+[  250.708622] power_supply BAT0: power_supply_changed
+[  250.708631] power_supply BAT0: power_supply_changed_work
+[  250.708637] power_supply BAT0: power_supply_update_bat_leds 2
+[  250.708646] power_supply BAT0: uevent
+[  250.708649] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  250.708657] power_supply BAT0: prop STATUS=Discharging
+[  250.708661] power_supply BAT0: prop PRESENT=1
+[  250.708666] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  250.708670] power_supply BAT0: prop CYCLE_COUNT=0
+[  250.708674] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  250.708678] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  250.708682] power_supply BAT0: prop POWER_NOW=15400000
+[  250.708686] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  250.708691] power_supply BAT0: prop ENERGY_FULL=50000000
+[  250.708695] power_supply BAT0: prop ENERGY_NOW=28000000
+[  250.708699] power_supply BAT0: prop CAPACITY=56
+[  250.708703] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  250.708707] power_supply BAT0: prop MODEL_NAME=1
+[  250.708711] power_supply BAT0: prop MANUFACTURER=innotek
+[  250.708715] power_supply BAT0: prop SERIAL_NUMBER=0
+[  250.708845] power_supply AC: uevent
+[  250.708849] power_supply AC: POWER_SUPPLY_NAME=AC
+[  250.708876] power_supply AC: prop ONLINE=0
+[  250.709027] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:44.284573582 UTC
+[  250.709184] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:26:44.284737358 UTC
+[  252.996720] binder: 3200 invalid dec weak, ref 217882 desc 44 s 1 w 0
+[  269.137080] binder: 3040:3048 refcount change on invalid ref 43
+[  269.154485] binder: 3040:4340 refcount change on invalid ref 43
+[  269.154490] binder: 3040:4340 refcount change on invalid ref 43
+[  269.154610] binder: transaction release 277031 bad handle 43
+[  269.298662] binder: 3040:3048 refcount change on invalid ref 42
+[  269.301695] binder: 3040:4340 refcount change on invalid ref 42
+[  269.301699] binder: 3040:4340 refcount change on invalid ref 42
+[  269.301702] binder: transaction release 277853 bad handle 42
+[  269.534864] binder: 3040:3048 refcount change on invalid ref 61
+[  269.538031] binder: 3040:4340 refcount change on invalid ref 61
+[  269.538037] binder: 3040:4340 refcount change on invalid ref 61
+[  269.538041] binder: transaction release 278558 bad handle 61
+[  269.578243] binder: 3040:3048 refcount change on invalid ref 68
+[  269.599356] binder: 3040:4340 refcount change on invalid ref 68
+[  269.599362] binder: 3040:4340 refcount change on invalid ref 68
+[  269.599366] binder: transaction release 278730 bad handle 68
+[  270.007711] binder: 3040:3048 refcount change on invalid ref 84
+[  270.099695] binder: 3040:4340 refcount change on invalid ref 84
+[  270.099706] binder: 3040:4340 refcount change on invalid ref 84
+[  270.099715] binder: transaction release 279286 bad handle 84
+[  270.710126] power_supply BAT0: power_supply_changed
+[  270.710133] power_supply BAT0: power_supply_changed_work
+[  270.710138] power_supply BAT0: power_supply_update_bat_leds 2
+[  270.710146] power_supply BAT0: uevent
+[  270.710148] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  270.710153] power_supply BAT0: prop STATUS=Discharging
+[  270.710156] power_supply BAT0: prop PRESENT=1
+[  270.710160] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  270.710170] power_supply BAT0: prop CYCLE_COUNT=0
+[  270.710174] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  270.710177] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  270.710180] power_supply BAT0: prop POWER_NOW=15700000
+[  270.710183] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  270.710194] power_supply BAT0: prop ENERGY_FULL=50000000
+[  270.710197] power_supply BAT0: prop ENERGY_NOW=28000000
+[  270.710200] power_supply BAT0: prop CAPACITY=56
+[  270.710204] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  270.710207] power_supply BAT0: prop MODEL_NAME=1
+[  270.710210] power_supply BAT0: prop MANUFACTURER=innotek
+[  270.710213] power_supply BAT0: prop SERIAL_NUMBER=0
+[  270.710293] power_supply AC: uevent
+[  270.710296] power_supply AC: POWER_SUPPLY_NAME=AC
+[  270.710316] power_supply AC: prop ONLINE=0
+[  270.710523] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:04.287427715 UTC
+[  270.710621] healthd: battery l=56 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:04.287532516 UTC
+[  290.711733] power_supply BAT0: power_supply_changed
+[  290.711747] power_supply BAT0: power_supply_changed_work
+[  290.711757] power_supply BAT0: power_supply_update_bat_leds 2
+[  290.711769] power_supply BAT0: uevent
+[  290.711776] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  290.711784] power_supply BAT0: prop STATUS=Discharging
+[  290.711790] power_supply BAT0: prop PRESENT=1
+[  290.711797] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  290.711802] power_supply BAT0: prop CYCLE_COUNT=0
+[  290.711808] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  290.711813] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  290.711818] power_supply BAT0: prop POWER_NOW=15500000
+[  290.711823] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  290.711827] power_supply BAT0: prop ENERGY_FULL=50000000
+[  290.711832] power_supply BAT0: prop ENERGY_NOW=27500000
+[  290.711836] power_supply BAT0: prop CAPACITY=55
+[  290.711840] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  290.711844] power_supply BAT0: prop MODEL_NAME=1
+[  290.711849] power_supply BAT0: prop MANUFACTURER=innotek
+[  290.711852] power_supply BAT0: prop SERIAL_NUMBER=0
+[  290.711945] power_supply AC: uevent
+[  290.711948] power_supply AC: POWER_SUPPLY_NAME=AC
+[  290.711967] power_supply AC: prop ONLINE=0
+[  290.712361] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:24.290621612 UTC
+[  290.712474] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:24.290740741 UTC
+[  309.636456] binder: 1349:1372 transaction failed 29189, size 240-0
+[  310.712121] power_supply BAT0: power_supply_changed
+[  310.712129] power_supply BAT0: power_supply_changed_work
+[  310.712135] power_supply BAT0: power_supply_update_bat_leds 2
+[  310.712144] power_supply BAT0: uevent
+[  310.712147] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  310.712152] power_supply BAT0: prop STATUS=Discharging
+[  310.712156] power_supply BAT0: prop PRESENT=1
+[  310.712160] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  310.712164] power_supply BAT0: prop CYCLE_COUNT=0
+[  310.712168] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  310.712172] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  310.712176] power_supply BAT0: prop POWER_NOW=15850000
+[  310.712180] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  310.712185] power_supply BAT0: prop ENERGY_FULL=50000000
+[  310.712189] power_supply BAT0: prop ENERGY_NOW=27500000
+[  310.712192] power_supply BAT0: prop CAPACITY=55
+[  310.712197] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  310.712201] power_supply BAT0: prop MODEL_NAME=1
+[  310.712205] power_supply BAT0: prop MANUFACTURER=innotek
+[  310.712209] power_supply BAT0: prop SERIAL_NUMBER=0
+[  310.712291] power_supply AC: uevent
+[  310.712294] power_supply AC: POWER_SUPPLY_NAME=AC
+[  310.712321] power_supply AC: prop ONLINE=0
+[  310.712466] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:44.292078631 UTC
+[  310.712609] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:27:44.292228112 UTC
+[  313.211209] binder: 4507:4515 refcount change on invalid ref 6
+[  330.713258] power_supply BAT0: power_supply_changed
+[  330.713267] power_supply BAT0: power_supply_changed_work
+[  330.713277] power_supply BAT0: power_supply_update_bat_leds 2
+[  330.713288] power_supply BAT0: uevent
+[  330.713291] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  330.713302] power_supply BAT0: prop STATUS=Discharging
+[  330.713307] power_supply BAT0: prop PRESENT=1
+[  330.713311] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  330.713315] power_supply BAT0: prop CYCLE_COUNT=0
+[  330.713316] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  330.713383] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  330.713387] power_supply BAT0: prop POWER_NOW=7550000
+[  330.713391] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  330.713395] power_supply BAT0: prop ENERGY_FULL=50000000
+[  330.713399] power_supply BAT0: prop ENERGY_NOW=27500000
+[  330.713403] power_supply BAT0: prop CAPACITY=55
+[  330.713408] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  330.713412] power_supply BAT0: prop MODEL_NAME=1
+[  330.713416] power_supply BAT0: prop MANUFACTURER=innotek
+[  330.713420] power_supply BAT0: prop SERIAL_NUMBER=0
+[  330.713519] power_supply AC: uevent
+[  330.713523] power_supply AC: POWER_SUPPLY_NAME=AC
+[  330.713549] power_supply AC: prop ONLINE=0
+[  330.713698] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:04.294665715 UTC
+[  330.713857] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:04.294831781 UTC
+[  350.714381] power_supply BAT0: power_supply_changed
+[  350.714389] power_supply BAT0: power_supply_changed_work
+[  350.714395] power_supply BAT0: power_supply_update_bat_leds 2
+[  350.714405] power_supply BAT0: uevent
+[  350.714408] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  350.714419] power_supply BAT0: prop STATUS=Discharging
+[  350.714423] power_supply BAT0: prop PRESENT=1
+[  350.714428] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  350.714432] power_supply BAT0: prop CYCLE_COUNT=0
+[  350.714436] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  350.714440] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  350.714444] power_supply BAT0: prop POWER_NOW=6200000
+[  350.714448] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  350.714452] power_supply BAT0: prop ENERGY_FULL=50000000
+[  350.714456] power_supply BAT0: prop ENERGY_NOW=27500000
+[  350.714460] power_supply BAT0: prop CAPACITY=55
+[  350.714465] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  350.714469] power_supply BAT0: prop MODEL_NAME=1
+[  350.714473] power_supply BAT0: prop MANUFACTURER=innotek
+[  350.714477] power_supply BAT0: prop SERIAL_NUMBER=0
+[  350.714570] power_supply AC: uevent
+[  350.714575] power_supply AC: POWER_SUPPLY_NAME=AC
+[  350.714600] power_supply AC: prop ONLINE=0
+[  350.714797] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:24.297120785 UTC
+[  350.714950] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:24.297280659 UTC
+[  370.714271] power_supply BAT0: power_supply_changed
+[  370.714278] power_supply BAT0: power_supply_changed_work
+[  370.714283] power_supply BAT0: power_supply_update_bat_leds 2
+[  370.714290] power_supply BAT0: uevent
+[  370.714292] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  370.714297] power_supply BAT0: prop STATUS=Discharging
+[  370.714300] power_supply BAT0: prop PRESENT=1
+[  370.714304] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  370.714307] power_supply BAT0: prop CYCLE_COUNT=0
+[  370.714310] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  370.714313] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  370.714316] power_supply BAT0: prop POWER_NOW=6700000
+[  370.714319] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  370.714322] power_supply BAT0: prop ENERGY_FULL=50000000
+[  370.714325] power_supply BAT0: prop ENERGY_NOW=27500000
+[  370.714328] power_supply BAT0: prop CAPACITY=55
+[  370.714332] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  370.714335] power_supply BAT0: prop MODEL_NAME=1
+[  370.714338] power_supply BAT0: prop MANUFACTURER=innotek
+[  370.714341] power_supply BAT0: prop SERIAL_NUMBER=0
+[  370.714415] power_supply AC: uevent
+[  370.714418] power_supply AC: POWER_SUPPLY_NAME=AC
+[  370.714437] power_supply AC: prop ONLINE=0
+[  370.714779] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:44.298461345 UTC
+[  370.714886] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:28:44.298574039 UTC
+[  390.715736] power_supply BAT0: power_supply_changed
+[  390.715745] power_supply BAT0: power_supply_changed_work
+[  390.715751] power_supply BAT0: power_supply_update_bat_leds 2
+[  390.715760] power_supply BAT0: uevent
+[  390.715764] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  390.715770] power_supply BAT0: prop STATUS=Discharging
+[  390.715775] power_supply BAT0: prop PRESENT=1
+[  390.715779] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  390.715783] power_supply BAT0: prop CYCLE_COUNT=0
+[  390.715787] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  390.715791] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  390.715795] power_supply BAT0: prop POWER_NOW=7550000
+[  390.715799] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  390.715803] power_supply BAT0: prop ENERGY_FULL=50000000
+[  390.715807] power_supply BAT0: prop ENERGY_NOW=27500000
+[  390.715811] power_supply BAT0: prop CAPACITY=55
+[  390.715816] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  390.715820] power_supply BAT0: prop MODEL_NAME=1
+[  390.715824] power_supply BAT0: prop MANUFACTURER=innotek
+[  390.715828] power_supply BAT0: prop SERIAL_NUMBER=0
+[  390.715895] power_supply AC: uevent
+[  390.715899] power_supply AC: POWER_SUPPLY_NAME=AC
+[  390.715924] power_supply AC: prop ONLINE=0
+[  390.716180] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:04.301214369 UTC
+[  390.716359] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:04.301398871 UTC
+[  410.716044] power_supply BAT0: power_supply_changed
+[  410.716053] power_supply BAT0: power_supply_changed_work
+[  410.716060] power_supply BAT0: power_supply_update_bat_leds 2
+[  410.716070] power_supply BAT0: uevent
+[  410.716074] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  410.716080] power_supply BAT0: prop STATUS=Discharging
+[  410.716084] power_supply BAT0: prop PRESENT=1
+[  410.716089] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  410.716093] power_supply BAT0: prop CYCLE_COUNT=0
+[  410.716097] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  410.716101] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  410.716105] power_supply BAT0: prop POWER_NOW=5900000
+[  410.716109] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  410.716113] power_supply BAT0: prop ENERGY_FULL=50000000
+[  410.716117] power_supply BAT0: prop ENERGY_NOW=27500000
+[  410.716121] power_supply BAT0: prop CAPACITY=55
+[  410.716125] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  410.716129] power_supply BAT0: prop MODEL_NAME=1
+[  410.716133] power_supply BAT0: prop MANUFACTURER=innotek
+[  410.716137] power_supply BAT0: prop SERIAL_NUMBER=0
+[  410.716206] power_supply AC: uevent
+[  410.716209] power_supply AC: POWER_SUPPLY_NAME=AC
+[  410.716235] power_supply AC: prop ONLINE=0
+[  410.716476] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:24.302866695 UTC
+[  410.716628] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:24.303024928 UTC
+[  430.717248] power_supply BAT0: power_supply_changed
+[  430.717258] power_supply BAT0: power_supply_changed_work
+[  430.717264] power_supply BAT0: power_supply_update_bat_leds 2
+[  430.717273] power_supply BAT0: uevent
+[  430.717276] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  430.717287] power_supply BAT0: prop STATUS=Discharging
+[  430.717291] power_supply BAT0: prop PRESENT=1
+[  430.717296] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  430.717300] power_supply BAT0: prop CYCLE_COUNT=0
+[  430.717304] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  430.717308] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  430.717312] power_supply BAT0: prop POWER_NOW=6500000
+[  430.717316] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  430.717320] power_supply BAT0: prop ENERGY_FULL=50000000
+[  430.717324] power_supply BAT0: prop ENERGY_NOW=27500000
+[  430.717328] power_supply BAT0: prop CAPACITY=55
+[  430.717332] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  430.717336] power_supply BAT0: prop MODEL_NAME=1
+[  430.717340] power_supply BAT0: prop MANUFACTURER=innotek
+[  430.717344] power_supply BAT0: prop SERIAL_NUMBER=0
+[  430.717412] power_supply AC: uevent
+[  430.717416] power_supply AC: POWER_SUPPLY_NAME=AC
+[  430.717440] power_supply AC: prop ONLINE=0
+[  430.717812] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:44.305553144 UTC
+[  430.718018] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:29:44.305743351 UTC
+[  447.449291] binder: 1349:1410 transaction failed 29189, size 328-0
+[  450.718031] power_supply BAT0: power_supply_changed
+[  450.718041] power_supply BAT0: power_supply_changed_work
+[  450.718047] power_supply BAT0: power_supply_update_bat_leds 2
+[  450.718057] power_supply BAT0: uevent
+[  450.718061] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  450.718071] power_supply BAT0: prop STATUS=Discharging
+[  450.718078] power_supply BAT0: prop PRESENT=1
+[  450.718084] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  450.718098] power_supply BAT0: prop CYCLE_COUNT=0
+[  450.718103] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  450.718108] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  450.718113] power_supply BAT0: prop POWER_NOW=7650000
+[  450.718118] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  450.718122] power_supply BAT0: prop ENERGY_FULL=50000000
+[  450.718126] power_supply BAT0: prop ENERGY_NOW=27500000
+[  450.718969] power_supply BAT0: prop CAPACITY=55
+[  450.718973] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  450.718977] power_supply BAT0: prop MODEL_NAME=1
+[  450.718981] power_supply BAT0: prop MANUFACTURER=innotek
+[  450.718985] power_supply BAT0: prop SERIAL_NUMBER=0
+[  450.719086] power_supply AC: uevent
+[  450.719089] power_supply AC: POWER_SUPPLY_NAME=AC
+[  450.719112] power_supply AC: prop ONLINE=0
+[  450.719340] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:04.308443587 UTC
+[  450.719451] healthd: battery l=55 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:04.308560553 UTC
+[  470.719128] power_supply BAT0: power_supply_changed
+[  470.719137] power_supply BAT0: power_supply_changed_work
+[  470.719143] power_supply BAT0: power_supply_update_bat_leds 2
+[  470.719153] power_supply BAT0: uevent
+[  470.719157] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  470.719163] power_supply BAT0: prop STATUS=Discharging
+[  470.719168] power_supply BAT0: prop PRESENT=1
+[  470.719173] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  470.719177] power_supply BAT0: prop CYCLE_COUNT=0
+[  470.719182] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  470.719187] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  470.719191] power_supply BAT0: prop POWER_NOW=9950000
+[  470.719196] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  470.719201] power_supply BAT0: prop ENERGY_FULL=50000000
+[  470.719205] power_supply BAT0: prop ENERGY_NOW=27000000
+[  470.719210] power_supply BAT0: prop CAPACITY=54
+[  470.719215] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  470.719219] power_supply BAT0: prop MODEL_NAME=1
+[  470.719224] power_supply BAT0: prop MANUFACTURER=innotek
+[  470.719228] power_supply BAT0: prop SERIAL_NUMBER=0
+[  470.719300] power_supply AC: uevent
+[  470.719304] power_supply AC: POWER_SUPPLY_NAME=AC
+[  470.719331] power_supply AC: prop ONLINE=0
+[  470.719586] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:24.310040461 UTC
+[  470.719776] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:24.310237230 UTC
+[  477.533100] init: Untracked pid 4917 exited with status 0
+[  490.719683] power_supply BAT0: power_supply_changed
+[  490.719691] power_supply BAT0: power_supply_changed_work
+[  490.719696] power_supply BAT0: power_supply_update_bat_leds 2
+[  490.719703] power_supply BAT0: uevent
+[  490.719706] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  490.719710] power_supply BAT0: prop STATUS=Discharging
+[  490.719714] power_supply BAT0: prop PRESENT=1
+[  490.719717] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  490.719720] power_supply BAT0: prop CYCLE_COUNT=0
+[  490.719723] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  490.719726] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  490.719729] power_supply BAT0: prop POWER_NOW=6100000
+[  490.719732] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  490.719735] power_supply BAT0: prop ENERGY_FULL=50000000
+[  490.719738] power_supply BAT0: prop ENERGY_NOW=27000000
+[  490.719741] power_supply BAT0: prop CAPACITY=54
+[  490.719745] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  490.719748] power_supply BAT0: prop MODEL_NAME=1
+[  490.719751] power_supply BAT0: prop MANUFACTURER=innotek
+[  490.719754] power_supply BAT0: prop SERIAL_NUMBER=0
+[  490.719806] power_supply AC: uevent
+[  490.719809] power_supply AC: POWER_SUPPLY_NAME=AC
+[  490.719827] power_supply AC: prop ONLINE=0
+[  490.720023] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:44.311837749 UTC
+[  490.720149] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:30:44.311969218 UTC
+[  510.720150] power_supply BAT0: power_supply_changed
+[  510.720157] power_supply BAT0: power_supply_changed_work
+[  510.720162] power_supply BAT0: power_supply_update_bat_leds 2
+[  510.720170] power_supply BAT0: uevent
+[  510.720172] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  510.720177] power_supply BAT0: prop STATUS=Discharging
+[  510.720180] power_supply BAT0: prop PRESENT=1
+[  510.720183] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  510.720186] power_supply BAT0: prop CYCLE_COUNT=0
+[  510.720189] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  510.720192] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  510.720195] power_supply BAT0: prop POWER_NOW=7150000
+[  510.720198] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  510.720201] power_supply BAT0: prop ENERGY_FULL=50000000
+[  510.720204] power_supply BAT0: prop ENERGY_NOW=27000000
+[  510.720207] power_supply BAT0: prop CAPACITY=54
+[  510.720210] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  510.720214] power_supply BAT0: prop MODEL_NAME=1
+[  510.720217] power_supply BAT0: prop MANUFACTURER=innotek
+[  510.720219] power_supply BAT0: prop SERIAL_NUMBER=0
+[  510.720275] power_supply AC: uevent
+[  510.720278] power_supply AC: POWER_SUPPLY_NAME=AC
+[  510.720296] power_supply AC: prop ONLINE=0
+[  510.720491] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:04.313660300 UTC
+[  510.720586] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:04.313761273 UTC
+[  530.720292] power_supply BAT0: power_supply_changed
+[  530.720299] power_supply BAT0: power_supply_changed_work
+[  530.720304] power_supply BAT0: power_supply_update_bat_leds 2
+[  530.720312] power_supply BAT0: uevent
+[  530.720314] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  530.720319] power_supply BAT0: prop STATUS=Discharging
+[  530.720322] power_supply BAT0: prop PRESENT=1
+[  530.720325] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  530.720328] power_supply BAT0: prop CYCLE_COUNT=0
+[  530.720331] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  530.720335] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  530.720338] power_supply BAT0: prop POWER_NOW=6000000
+[  530.720341] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  530.720344] power_supply BAT0: prop ENERGY_FULL=50000000
+[  530.720346] power_supply BAT0: prop ENERGY_NOW=27000000
+[  530.720349] power_supply BAT0: prop CAPACITY=54
+[  530.720352] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  530.720356] power_supply BAT0: prop MODEL_NAME=1
+[  530.720359] power_supply BAT0: prop MANUFACTURER=innotek
+[  530.720362] power_supply BAT0: prop SERIAL_NUMBER=0
+[  530.720417] power_supply AC: uevent
+[  530.720419] power_supply AC: POWER_SUPPLY_NAME=AC
+[  530.720438] power_supply AC: prop ONLINE=0
+[  530.720635] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:24.315158880 UTC
+[  530.720875] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:24.315405068 UTC
+[  550.721033] power_supply BAT0: power_supply_changed
+[  550.721042] power_supply BAT0: power_supply_changed_work
+[  550.721049] power_supply BAT0: power_supply_update_bat_leds 2
+[  550.721058] power_supply BAT0: uevent
+[  550.721061] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  550.721067] power_supply BAT0: prop STATUS=Discharging
+[  550.721072] power_supply BAT0: prop PRESENT=1
+[  550.721077] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  550.721081] power_supply BAT0: prop CYCLE_COUNT=0
+[  550.721085] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  550.721089] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  550.721094] power_supply BAT0: prop POWER_NOW=6150000
+[  550.721098] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  550.721102] power_supply BAT0: prop ENERGY_FULL=50000000
+[  550.721106] power_supply BAT0: prop ENERGY_NOW=27000000
+[  550.721110] power_supply BAT0: prop CAPACITY=54
+[  550.721115] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  550.721119] power_supply BAT0: prop MODEL_NAME=1
+[  550.721123] power_supply BAT0: prop MANUFACTURER=innotek
+[  550.721127] power_supply BAT0: prop SERIAL_NUMBER=0
+[  550.721198] power_supply AC: uevent
+[  550.721202] power_supply AC: POWER_SUPPLY_NAME=AC
+[  550.721227] power_supply AC: prop ONLINE=0
+[  550.722826] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:44.318679355 UTC
+[  550.722993] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:31:44.318874250 UTC
+[  570.722236] power_supply BAT0: power_supply_changed
+[  570.722246] power_supply BAT0: power_supply_changed_work
+[  570.722253] power_supply BAT0: power_supply_update_bat_leds 2
+[  570.722262] power_supply BAT0: uevent
+[  570.722265] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  570.722272] power_supply BAT0: prop STATUS=Discharging
+[  570.722276] power_supply BAT0: prop PRESENT=1
+[  570.722281] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  570.722285] power_supply BAT0: prop CYCLE_COUNT=0
+[  570.722289] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  570.722293] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  570.722297] power_supply BAT0: prop POWER_NOW=6200000
+[  570.722301] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  570.722305] power_supply BAT0: prop ENERGY_FULL=50000000
+[  570.722309] power_supply BAT0: prop ENERGY_NOW=27000000
+[  570.722313] power_supply BAT0: prop CAPACITY=54
+[  570.722317] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  570.722321] power_supply BAT0: prop MODEL_NAME=1
+[  570.722326] power_supply BAT0: prop MANUFACTURER=innotek
+[  570.722329] power_supply BAT0: prop SERIAL_NUMBER=0
+[  570.722402] power_supply AC: uevent
+[  570.722406] power_supply AC: POWER_SUPPLY_NAME=AC
+[  570.722431] power_supply AC: prop ONLINE=0
+[  570.722750] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:04.319981599 UTC
+[  570.722872] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:04.320112218 UTC
+[  590.722518] power_supply BAT0: power_supply_changed
+[  590.722527] power_supply BAT0: power_supply_changed_work
+[  590.722534] power_supply BAT0: power_supply_update_bat_leds 2
+[  590.722544] power_supply BAT0: uevent
+[  590.722548] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  590.722553] power_supply BAT0: prop STATUS=Discharging
+[  590.722558] power_supply BAT0: prop PRESENT=1
+[  590.722562] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  590.722566] power_supply BAT0: prop CYCLE_COUNT=0
+[  590.722570] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  590.722574] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  590.722578] power_supply BAT0: prop POWER_NOW=7450000
+[  590.722583] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  590.722587] power_supply BAT0: prop ENERGY_FULL=50000000
+[  590.722591] power_supply BAT0: prop ENERGY_NOW=27000000
+[  590.722594] power_supply BAT0: prop CAPACITY=54
+[  590.722599] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  590.722603] power_supply BAT0: prop MODEL_NAME=1
+[  590.722607] power_supply BAT0: prop MANUFACTURER=innotek
+[  590.722611] power_supply BAT0: prop SERIAL_NUMBER=0
+[  590.722685] power_supply AC: uevent
+[  590.722688] power_supply AC: POWER_SUPPLY_NAME=AC
+[  590.722780] power_supply AC: prop ONLINE=0
+[  590.723040] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:24.321628479 UTC
+[  590.723170] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:24.321763785 UTC
+[  610.244436] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[  610.662956] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:44.262889758 UTC
+[  610.724314] power_supply BAT0: power_supply_changed
+[  610.724323] power_supply BAT0: power_supply_changed_work
+[  610.724329] power_supply BAT0: power_supply_update_bat_leds 2
+[  610.724338] power_supply BAT0: uevent
+[  610.724340] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  610.724407] power_supply BAT0: prop STATUS=Discharging
+[  610.724412] power_supply BAT0: prop PRESENT=1
+[  610.724417] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  610.724421] power_supply BAT0: prop CYCLE_COUNT=0
+[  610.724425] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  610.724430] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  610.724434] power_supply BAT0: prop POWER_NOW=7450000
+[  610.724439] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  610.724444] power_supply BAT0: prop ENERGY_FULL=50000000
+[  610.724448] power_supply BAT0: prop ENERGY_NOW=27000000
+[  610.724452] power_supply BAT0: prop CAPACITY=54
+[  610.724456] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  610.724460] power_supply BAT0: prop MODEL_NAME=1
+[  610.724464] power_supply BAT0: prop MANUFACTURER=innotek
+[  610.724468] power_supply BAT0: prop SERIAL_NUMBER=0
+[  610.724545] power_supply AC: uevent
+[  610.724548] power_supply AC: POWER_SUPPLY_NAME=AC
+[  610.724574] power_supply AC: prop ONLINE=0
+[  610.724926] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:44.324867533 UTC
+[  610.725054] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:32:44.325004109 UTC
+[  623.822117] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
+[  630.724643] power_supply BAT0: power_supply_changed
+[  630.724650] power_supply BAT0: power_supply_changed_work
+[  630.724654] power_supply BAT0: power_supply_update_bat_leds 2
+[  630.724660] power_supply BAT0: uevent
+[  630.724663] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  630.724668] power_supply BAT0: prop STATUS=Discharging
+[  630.724671] power_supply BAT0: prop PRESENT=1
+[  630.724674] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  630.724676] power_supply BAT0: prop CYCLE_COUNT=0
+[  630.724679] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  630.724682] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  630.724685] power_supply BAT0: prop POWER_NOW=7450000
+[  630.724687] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  630.724690] power_supply BAT0: prop ENERGY_FULL=50000000
+[  630.724693] power_supply BAT0: prop ENERGY_NOW=27000000
+[  630.724695] power_supply BAT0: prop CAPACITY=54
+[  630.724698] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  630.724701] power_supply BAT0: prop MODEL_NAME=1
+[  630.724704] power_supply BAT0: prop MANUFACTURER=innotek
+[  630.724706] power_supply BAT0: prop SERIAL_NUMBER=0
+[  630.724765] power_supply AC: uevent
+[  630.724768] power_supply AC: POWER_SUPPLY_NAME=AC
+[  630.724786] power_supply AC: prop ONLINE=0
+[  630.724977] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:04.326278499 UTC
+[  630.725116] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:04.326422415 UTC
+[  650.725299] power_supply BAT0: power_supply_changed
+[  650.725309] power_supply BAT0: power_supply_changed_work
+[  650.725315] power_supply BAT0: power_supply_update_bat_leds 2
+[  650.725324] power_supply BAT0: uevent
+[  650.725328] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  650.725338] power_supply BAT0: prop STATUS=Discharging
+[  650.725343] power_supply BAT0: prop PRESENT=1
+[  650.725347] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  650.725351] power_supply BAT0: prop CYCLE_COUNT=0
+[  650.725356] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  650.725360] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  650.725364] power_supply BAT0: prop POWER_NOW=6850000
+[  650.725369] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  650.725373] power_supply BAT0: prop ENERGY_FULL=50000000
+[  650.725377] power_supply BAT0: prop ENERGY_NOW=27000000
+[  650.725381] power_supply BAT0: prop CAPACITY=54
+[  650.725386] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  650.725390] power_supply BAT0: prop MODEL_NAME=1
+[  650.725394] power_supply BAT0: prop MANUFACTURER=innotek
+[  650.725398] power_supply BAT0: prop SERIAL_NUMBER=0
+[  650.725467] power_supply AC: uevent
+[  650.725471] power_supply AC: POWER_SUPPLY_NAME=AC
+[  650.725496] power_supply AC: prop ONLINE=0
+[  650.726541] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:24.329181006 UTC
+[  650.726709] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:24.329365193 UTC
+[  670.726704] power_supply BAT0: power_supply_changed
+[  670.726712] power_supply BAT0: power_supply_changed_work
+[  670.726718] power_supply BAT0: power_supply_update_bat_leds 2
+[  670.726727] power_supply BAT0: uevent
+[  670.726731] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  670.726742] power_supply BAT0: prop STATUS=Discharging
+[  670.726746] power_supply BAT0: prop PRESENT=1
+[  670.726751] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  670.726755] power_supply BAT0: prop CYCLE_COUNT=0
+[  670.726759] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  670.726763] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  670.726768] power_supply BAT0: prop POWER_NOW=8100000
+[  670.726772] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  670.726776] power_supply BAT0: prop ENERGY_FULL=50000000
+[  670.726780] power_supply BAT0: prop ENERGY_NOW=27000000
+[  670.726784] power_supply BAT0: prop CAPACITY=54
+[  670.726788] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  670.726792] power_supply BAT0: prop MODEL_NAME=1
+[  670.726796] power_supply BAT0: prop MANUFACTURER=innotek
+[  670.726800] power_supply BAT0: prop SERIAL_NUMBER=0
+[  670.726869] power_supply AC: uevent
+[  670.726872] power_supply AC: POWER_SUPPLY_NAME=AC
+[  670.726897] power_supply AC: prop ONLINE=0
+[  670.727148] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:44.331156960 UTC
+[  670.727275] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:33:44.331291231 UTC
+[  690.727234] power_supply BAT0: power_supply_changed
+[  690.727243] power_supply BAT0: power_supply_changed_work
+[  690.727249] power_supply BAT0: power_supply_update_bat_leds 2
+[  690.727258] power_supply BAT0: uevent
+[  690.727261] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  690.727272] power_supply BAT0: prop STATUS=Discharging
+[  690.727276] power_supply BAT0: prop PRESENT=1
+[  690.727281] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  690.727285] power_supply BAT0: prop CYCLE_COUNT=0
+[  690.727289] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  690.727293] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  690.727298] power_supply BAT0: prop POWER_NOW=7700000
+[  690.727302] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  690.727306] power_supply BAT0: prop ENERGY_FULL=50000000
+[  690.727310] power_supply BAT0: prop ENERGY_NOW=27000000
+[  690.727314] power_supply BAT0: prop CAPACITY=54
+[  690.727318] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  690.727322] power_supply BAT0: prop MODEL_NAME=1
+[  690.727326] power_supply BAT0: prop MANUFACTURER=innotek
+[  690.727330] power_supply BAT0: prop SERIAL_NUMBER=0
+[  690.727400] power_supply AC: uevent
+[  690.727403] power_supply AC: POWER_SUPPLY_NAME=AC
+[  690.727428] power_supply AC: prop ONLINE=0
+[  690.727674] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:04.333037760 UTC
+[  690.727802] healthd: battery l=54 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:04.333172400 UTC
+[  710.728380] power_supply BAT0: power_supply_changed
+[  710.728389] power_supply BAT0: power_supply_changed_work
+[  710.728395] power_supply BAT0: power_supply_update_bat_leds 2
+[  710.728405] power_supply BAT0: uevent
+[  710.728408] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  710.728414] power_supply BAT0: prop STATUS=Discharging
+[  710.728419] power_supply BAT0: prop PRESENT=1
+[  710.728423] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  710.728427] power_supply BAT0: prop CYCLE_COUNT=0
+[  710.728431] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  710.728436] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  710.728440] power_supply BAT0: prop POWER_NOW=7050000
+[  710.728444] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  710.728448] power_supply BAT0: prop ENERGY_FULL=50000000
+[  710.728452] power_supply BAT0: prop ENERGY_NOW=26500000
+[  710.728456] power_supply BAT0: prop CAPACITY=53
+[  710.728460] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  710.728464] power_supply BAT0: prop MODEL_NAME=1
+[  710.728469] power_supply BAT0: prop MANUFACTURER=innotek
+[  710.728472] power_supply BAT0: prop SERIAL_NUMBER=0
+[  710.728541] power_supply AC: uevent
+[  710.728545] power_supply AC: POWER_SUPPLY_NAME=AC
+[  710.728565] power_supply AC: prop ONLINE=0
+[  710.728969] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:24.335683837 UTC
+[  710.729160] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:24.335881110 UTC
+[  730.729095] power_supply BAT0: power_supply_changed
+[  730.729104] power_supply BAT0: power_supply_changed_work
+[  730.729110] power_supply BAT0: power_supply_update_bat_leds 2
+[  730.729119] power_supply BAT0: uevent
+[  730.729123] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  730.729129] power_supply BAT0: prop STATUS=Discharging
+[  730.729133] power_supply BAT0: prop PRESENT=1
+[  730.729138] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  730.729142] power_supply BAT0: prop CYCLE_COUNT=0
+[  730.729146] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  730.729150] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  730.729155] power_supply BAT0: prop POWER_NOW=6600000
+[  730.729159] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  730.729163] power_supply BAT0: prop ENERGY_FULL=50000000
+[  730.729167] power_supply BAT0: prop ENERGY_NOW=26500000
+[  730.729171] power_supply BAT0: prop CAPACITY=53
+[  730.729175] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  730.729179] power_supply BAT0: prop MODEL_NAME=1
+[  730.729183] power_supply BAT0: prop MANUFACTURER=innotek
+[  730.729187] power_supply BAT0: prop SERIAL_NUMBER=0
+[  730.729340] power_supply AC: uevent
+[  730.729349] power_supply AC: POWER_SUPPLY_NAME=AC
+[  730.729390] power_supply AC: prop ONLINE=0
+[  730.729747] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:44.337816467 UTC
+[  730.729935] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:34:44.338015654 UTC
+[  750.729707] power_supply BAT0: power_supply_changed
+[  750.729716] power_supply BAT0: power_supply_changed_work
+[  750.729722] power_supply BAT0: power_supply_update_bat_leds 2
+[  750.729731] power_supply BAT0: uevent
+[  750.729735] power_supply BAT0: POWER_SUPPLY_NAME=BAT0
+[  750.729741] power_supply BAT0: prop STATUS=Discharging
+[  750.729746] power_supply BAT0: prop PRESENT=1
+[  750.729750] power_supply BAT0: prop TECHNOLOGY=Unknown
+[  750.729754] power_supply BAT0: prop CYCLE_COUNT=0
+[  750.729758] power_supply BAT0: prop VOLTAGE_MIN_DESIGN=10000000
+[  750.729762] power_supply BAT0: prop VOLTAGE_NOW=10000000
+[  750.729766] power_supply BAT0: prop POWER_NOW=6500000
+[  750.729770] power_supply BAT0: prop ENERGY_FULL_DESIGN=50000000
+[  750.729774] power_supply BAT0: prop ENERGY_FULL=50000000
+[  750.729778] power_supply BAT0: prop ENERGY_NOW=26500000
+[  750.729782] power_supply BAT0: prop CAPACITY=53
+[  750.729787] power_supply BAT0: prop CAPACITY_LEVEL=Normal
+[  750.729791] power_supply BAT0: prop MODEL_NAME=1
+[  750.729795] power_supply BAT0: prop MANUFACTURER=innotek
+[  750.729798] power_supply BAT0: prop SERIAL_NUMBER=0
+[  750.729854] power_supply AC: uevent
+[  750.729915] power_supply AC: POWER_SUPPLY_NAME=AC
+[  750.729950] power_supply AC: prop ONLINE=0
+[  750.730199] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:35:04.339630098 UTC
+[  750.730330] healthd: battery l=53 v=10000 t=0.0 h=1 st=3 chg= 2017-11-07 16:35:04.339767678 UTC

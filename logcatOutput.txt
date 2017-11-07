@@ -1,0 +1,51 @@
+--------- beginning of main
+11-07 20:09:12.826  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=6, metaState=0, flags=0x8, repeatCount=0, eventTime=999141, downTime=999086, deviceId=6, source=0x101 }
+11-07 20:09:12.826  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 12
+11-07 20:09:12.946  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_0, scanCode=11, metaState=0, flags=0x8, repeatCount=0, eventTime=999260, downTime=999190, deviceId=6, source=0x101 }
+11-07 20:09:12.946  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 7
+11-07 20:09:13.071  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SPACE, scanCode=57, metaState=0, flags=0x8, repeatCount=0, eventTime=999386, downTime=999324, deviceId=6, source=0x101 }
+11-07 20:09:13.071  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 62
+11-07 20:09:14.436  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SHIFT_LEFT, scanCode=42, metaState=0, flags=0x8, repeatCount=0, eventTime=1000751, downTime=1000692, deviceId=6, source=0x101 }
+11-07 20:09:14.436  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 59
+11-07 20:09:14.470  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PERIOD, scanCode=52, metaState=0, flags=0x8, repeatCount=0, eventTime=1000785, downTime=1000785, deviceId=6, source=0x101 }
+11-07 20:09:14.470  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 56
+11-07 20:09:14.533  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SPACE, scanCode=57, metaState=0, flags=0x8, repeatCount=0, eventTime=1000848, downTime=1000785, deviceId=6, source=0x101 }
+11-07 20:09:14.533  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 62
+11-07 20:09:15.351  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_L, scanCode=38, metaState=0, flags=0x8, repeatCount=0, eventTime=1001666, downTime=1001596, deviceId=6, source=0x101 }
+11-07 20:09:15.351  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 40
+11-07 20:09:15.509  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_O, scanCode=24, metaState=0, flags=0x8, repeatCount=0, eventTime=1001824, downTime=1001745, deviceId=6, source=0x101 }
+11-07 20:09:15.509  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 43
+11-07 20:09:15.819  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DEL, scanCode=14, metaState=0, flags=0x8, repeatCount=0, eventTime=1002134, downTime=1002079, deviceId=6, source=0x101 }
+11-07 20:09:15.819  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 67
+11-07 20:09:16.685  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_O, scanCode=24, metaState=0, flags=0x8, repeatCount=0, eventTime=1003000, downTime=1002922, deviceId=6, source=0x101 }
+11-07 20:09:16.685  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 43
+11-07 20:09:16.785  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_G, scanCode=34, metaState=0, flags=0x8, repeatCount=0, eventTime=1003100, downTime=1003030, deviceId=6, source=0x101 }
+11-07 20:09:16.785  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 35
+11-07 20:09:17.120  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_C, scanCode=46, metaState=0, flags=0x8, repeatCount=0, eventTime=1003423, downTime=1003393, deviceId=6, source=0x101 }
+11-07 20:09:17.120  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 31
+11-07 20:09:17.187  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_A, scanCode=30, metaState=0, flags=0x8, repeatCount=0, eventTime=1003502, downTime=1003393, deviceId=6, source=0x101 }
+11-07 20:09:17.187  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 29
+11-07 20:09:17.320  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_T, scanCode=20, metaState=0, flags=0x8, repeatCount=0, eventTime=1003636, downTime=1003542, deviceId=6, source=0x101 }
+11-07 20:09:17.320  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 48
+11-07 20:09:18.060  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SHIFT_LEFT, scanCode=42, metaState=0, flags=0x8, repeatCount=0, eventTime=1004375, downTime=1004274, deviceId=6, source=0x101 }
+11-07 20:09:18.061  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 59
+11-07 20:09:18.092  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_O, scanCode=24, metaState=0, flags=0x8, repeatCount=0, eventTime=1004407, downTime=1004376, deviceId=6, source=0x101 }
+11-07 20:09:18.092  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 43
+11-07 20:09:18.153  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_U, scanCode=22, metaState=0, flags=0x8, repeatCount=0, eventTime=1004468, downTime=1004376, deviceId=6, source=0x101 }
+11-07 20:09:18.153  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 49
+11-07 20:09:18.351  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_T, scanCode=20, metaState=0, flags=0x8, repeatCount=0, eventTime=1004665, downTime=1004579, deviceId=6, source=0x101 }
+11-07 20:09:18.351  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 48
+11-07 20:09:18.784  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_P, scanCode=25, metaState=0, flags=0x8, repeatCount=0, eventTime=1005095, downTime=1005055, deviceId=6, source=0x101 }
+11-07 20:09:18.784  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 44
+11-07 20:09:18.848  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_U, scanCode=22, metaState=0, flags=0x8, repeatCount=0, eventTime=1005163, downTime=1005055, deviceId=6, source=0x101 }
+11-07 20:09:18.848  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 49
+11-07 20:09:18.918  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_T, scanCode=20, metaState=0, flags=0x8, repeatCount=0, eventTime=1005233, downTime=1005163, deviceId=6, source=0x101 }
+11-07 20:09:18.918  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 48
+11-07 20:09:19.348  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PERIOD, scanCode=52, metaState=0, flags=0x8, repeatCount=0, eventTime=1005663, downTime=1005577, deviceId=6, source=0x101 }
+11-07 20:09:19.348  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 56
+11-07 20:09:19.552  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_T, scanCode=20, metaState=0, flags=0x8, repeatCount=0, eventTime=1005867, downTime=1005781, deviceId=6, source=0x101 }
+11-07 20:09:19.552  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 48
+11-07 20:09:19.788  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_X, scanCode=45, metaState=0, flags=0x8, repeatCount=0, eventTime=1006103, downTime=1006001, deviceId=6, source=0x101 }
+11-07 20:09:19.788  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 52
+11-07 20:09:19.891  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : KeyEvent { action=ACTION_UP, keyCode=KEYCODE_T, scanCode=20, metaState=0, flags=0x8, repeatCount=0, eventTime=1006206, downTime=1006128, deviceId=6, source=0x101 }
+11-07 20:09:19.891  1797  1797 D EmojiAltPhysicalKeyDetector: onKeyUp() : Not Mapped: 48
