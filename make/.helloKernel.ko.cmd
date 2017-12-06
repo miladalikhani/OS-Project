@@ -1,0 +1,1 @@
+cmd_/home/milad/Desktop/OS/codes/make/helloKernel.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/milad/Desktop/OS/codes/make/helloKernel.ko /home/milad/Desktop/OS/codes/make/helloKernel.o /home/milad/Desktop/OS/codes/make/helloKernel.mod.o
